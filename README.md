@@ -1,14 +1,15 @@
-# Basic Calculator in C
+# Quiz Game in C
 
-This project is a simple command-line calculator written in C. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It is designed to be lightweight and easy to use.
+This project is a simple command-line quiz game written in C. The game tests the user's knowledge with multiple-choice questions and provides instant feedback on their answers.
 
 ---
 
 ## Features
 
-- Perform addition, subtraction, multiplication, and division.
-- User-friendly command-line interface.
-- Error handling for invalid inputs and division by zero.
+- Multiple-choice questions.
+- Keeps track of the user's score.
+- Provides immediate feedback for each question.
+- Simple and user-friendly interface.
 
 ---
 
@@ -24,7 +25,7 @@ This project is a simple command-line calculator written in C. It performs basic
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/basic-calculator-c.git
-cd basic-calculator-c
-gcc calculator.c -o calculator
-./calculator
+git clone https://github.com/yourusername/quiz-game-c.git
+cd quiz-game-c
+gcc quiz_game.c -o quiz_game
+./quiz_game
